@@ -22,7 +22,7 @@ public class AdminController {
         this.roleService = roleService;
     }
 
-    @GetMapping()
+    @GetMapping
     public String homeAdmin() {
         return "redirect:/admin/users";
     }
